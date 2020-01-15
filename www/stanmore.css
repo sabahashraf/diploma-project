@@ -1,0 +1,376 @@
+﻿* {
+margin: 0em;
+padding: 0em;
+font-size: 100%;
+border-style: none;
+list-style-type: none;
+}
+
+main {
+display: block;  
+}
+body {
+	
+	font-family:acme,calibri,helvetica,sans-serif;
+	font-size:16px;
+	
+
+}
+#wrapper {
+	width:900px;
+	margin:0px auto;
+	background-color:rgba(42, 60, 75, 1);
+}
+#inner-wrapper {
+	width:790px;
+	margin:auto;
+}
+header img {
+	width:900px;
+	height:147px;
+}
+main {
+	display:flex;
+	width:790px;
+	padding-top:30px;
+	margin-left:55px;
+}
+main li {
+	font-size:14px;
+	list-style-type:none;
+	line-height:140%;
+	
+}
+
+#responsive-menu .menu-icon { /* responsive MENU */
+display: none;
+width: 100%;
+}
+#responsive-menu .menu-icon a { /* responsive MENU */
+width: 100%;
+display: inline-block;
+color: #000;
+text-decoration: none;
+font-weight: bold;
+font-size: 20px;
+}
+#responsive-menu .menu-icon img { /* responsive MENU */
+vertical-align: bottom;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+	color:#000;
+}
+
+nav ul {
+	display:flex;
+	justify-content:space-around;
+	color:#fff;
+	background-color:#33516d;
+	height:25px;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-left:15px;
+}
+nav a {
+	text-decoration:none;
+	color:#fff;
+}
+nav a:active, nav a:hover {
+	color:#d3e500;
+	text-decoration:none;
+}
+
+h1 {
+	font-size:16px;
+	color:#d3e500;
+	padding-bottom:20px;
+}
+h2 {
+	color:#fff;
+	padding-bottom:10px;
+}
+section ul {
+	padding-left:10px;
+	padding-bottom:10px;
+	color:#fff;
+}
+section a {
+	text-decoration:none;
+	color:#fff;
+}
+section a:hover {
+	color:#d3e500;
+	text-decoration:underline;
+}
+
+
+	
+p {
+	font-size:14px;
+	line-height:130%;
+	padding-bottom:15px;
+	color:#fff;
+}
+table {
+	width:195px;
+	font-size:14px;
+	color:#fff;
+	padding-bottom:10px;
+}
+table th {
+	text-align:left;
+}
+table td {
+	padding-left:40px;
+	
+}
+
+figure img {
+	width:450px;
+	height:330px;
+}
+
+figure {
+	padding-left:30px;
+	padding-top:10px;
+	color:#fff;
+	
+}
+figcaption {
+	padding-top:20px;
+	font-size:14px;
+}
+figcaption a {
+	text-decoration:none;
+	color:#fff;
+}
+figcaption a:hover {
+	color:#d3e500;
+	text-decoration:underline;
+}
+#myInput {
+   
+    /* Full-width */width:50%;
+    font-size: 16px; /* Increase font-size */
+    padding: 12px 20px 12px 40px; /* Add some padding */
+    border: 1px solid #ddd; /* Add a grey border */
+    margin-bottom: 12px; 
+	margin-top:10px;/* Add some space below the input */
+}
+#myUL {
+    /* Remove default list styling */
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+	
+}
+#myUL li a {
+    border: 1px solid #ddd; /* Add a border to all links */
+    margin-top: -1px; /* Prevent double borders */
+    background-color: #f6f6f6; /* Grey background color */
+	width :15%;
+    padding: 12px; /* Add some padding */
+    text-decoration: none; /* Remove default text underline */
+    font-size: 18px; /* Increase the font-size */
+    color: black; /* Add a black text color */
+    display: none; /* Make it into a block element to fill the whole list */
+	/*visibility:hidden;*/
+}
+#myUL li a:hover:not(.header) {
+    background-color: #eee; /* Add a hover effect to all links, except for headers */
+} 
+header h1 {
+	float:right;
+	margin-right:50px;
+	margin-top:8px;
+	margin-bottom:0px;
+	padding-bottom:8px;
+}
+span a{
+	float:right;
+	display:inline;
+	margin-right:10px;
+	margin-top:8px;
+	margin-bottom:0px;
+	padding-bottom:8px;
+	text-decoration:none;
+	font-size:16px;
+	color:#d3e500;
+}
+footer {
+	font-size:12px;
+	color:#fff;
+	width:500px;
+	margin:20px auto 30px auto;
+	padding-bottom:20px;
+}
+footer ul {
+	display:inline;
+	display:flex;
+	align-items:center;
+}
+footer a {
+	padding-left:40px;
+	color:#fff;
+	text-decoration:none;
+}
+
+footer a:hover {
+	text-decoration:underline;
+	color:#fff;
+}
+#gmap_canvas img{
+	max-width:none;
+	
+	background:none;
+	
+	}
+	
+@media screen and (max-width: 480px) { /* responsive design for SMART PHONES */
+		#wrapper {
+		margin: 0px;
+		min-width: 320px;
+		max-width:480px;
+		width:100%;
+		}
+		#inner-wrapper {
+		padding: 3% 5%;
+		width:100%;
+		}
+
+		#responsive-menu .menu { /* responsive MENU */
+		max-height: 0;
+		overflow: hidden;
+		float: none;
+		width: 100%;
+		transition: max-height 0.5s;
+		}
+		#responsive-menu .menu.menu-open { /* responsive MENU */
+		max-height: 1000px;
+		transition: max-height 0.5s;
+		}
+		#responsive-menu .menu-icon { /* responsive MENU */
+		display: inline-block;
+		}
+		header img {
+			max-width:480px;
+			width:100%;
+		}
+		nav { /* insert a suitable top margin */
+		margin-top:10px;
+		}
+		nav ul {
+		flex-direction:column;
+		height:130px;
+		width:100%;
+		}
+		nav li { /* insert a suitable top margin */
+		font-size: 83%;
+		margin-top:5px;
+		}
+		main {
+			margin-left:0px;
+			flex-direction:column;
+			max-width:480px;
+			width:100%;
+		}
+		Section {
+				margin-left:5px;
+			flex-direction:column;
+			max-width:480px;
+			width:100%;
+		}
+		#gmap_canvas {
+				margin-left:5px;
+				max-width:300px;
+			flex-direction:column;
+			
+			
+		}
+		.container {
+			max-width:320px;
+			padding:10px;
+			margin:5px;
+		}
+			
+		form {
+					
+					
+			flex-direction:column;
+			
+			max-width:320px;
+			
+		}
+		
+	
+			
+			
+			
+		h2 {
+			max-width:480px;
+			width:100%;
+			margin-top:10px;
+		}
+		figure {
+			padding:0px;
+			flex-direction:column;
+			max-width:480px;
+			width:100%;
+		}
+		figcaption {
+			margin-left:5px;
+		}
+		figure img {
+			max-width:480px;
+			width:100%;
+		}
+		figure h2 {
+			margin-left:5px;
+		}
+		
+		main{
+			display:inline-block;
+		}
+		footer{
+			max-width:480px;
+			width:100%;
+			margin-top:10px;
+			
+		}
+		footer li {
+			padding-bottom:5px;
+		}
+		footer  ul{
+			flex-flow:column wrap;
+			padding-left:0px;
+			
+		}
+		}
